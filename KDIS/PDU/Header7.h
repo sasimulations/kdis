@@ -262,6 +262,15 @@ public:
     KBOOL GetPDUStatusSM() const;
 
     //************************************
+    // FullName:    KDIS::PDU::Header7::SetPadding2
+    //              KDIS::PDU::Header7::GetPadding2
+    // Description: The entire padding2 header field.
+    // Parameter:   KUINT8 P
+    //************************************
+    void SetPadding2( KUINT8 P );
+    KUINT8 GetPadding2() const;
+
+    //************************************
     // FullName:    KDIS::PDU::Header7::GetAsString
     // Description: Returns a string representation of the PDU.
     //************************************

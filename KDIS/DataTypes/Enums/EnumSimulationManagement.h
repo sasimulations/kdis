@@ -135,7 +135,10 @@ enum FrozenBehavior
 {
     SimClock                                                          = 0,
     TransmitPDU                                                       = 1,
-    ReceivePDU                                                        = 2
+    ReceivePDU                                                        = 2,
+    ContinueTransmitPDU                                               = 3,
+    CeaseUpdateSimModels                                              = 4,
+    ContinueUpdateSimModels                                           = 5
 };
 
 // Returns number of values in the EnumDescriptor for this enum.

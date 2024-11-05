@@ -247,6 +247,13 @@ void FundamentalOperationalData_MarkXTransponder::SetModifierSTI( KBOOL IsOn )
 
 //////////////////////////////////////////////////////////////////////////
 
+void FundamentalOperationalData_MarkXTransponder::SetModifier( KUINT8 modifierField )
+{
+    m_ui8Modifier = modifierField;
+}
+
+//////////////////////////////////////////////////////////////////////////
+
 KBOOL FundamentalOperationalData_MarkXTransponder::IsModifierEmergencyOn() const
 {
     return m_ui8Emergency;

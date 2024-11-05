@@ -248,6 +248,7 @@ public:
     void SetModifierEmergency( KBOOL IsOn );
     void SetModifierIdentSquawkFlash( KBOOL IsOn );
     void SetModifierSTI( KBOOL IsOn );
+    void SetModifier( KUINT8 modifierField );
     KBOOL IsModifierEmergencyOn() const;
     KBOOL IsModifierIdentSquawkFlashOn() const;
     KBOOL IsModifierSTIOn() const;
