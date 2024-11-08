@@ -78,6 +78,10 @@ public:
                     KUINT16 MajorModulation, KUINT16 Detail,
                     KUINT16 System );
 
+    ModulationType( KUINT16 SpreadSpectrum,
+                    KUINT16 MajorModulation, KUINT16 Detail,
+                    KUINT16 System);
+                    
     virtual ~ModulationType();
 
     //************************************

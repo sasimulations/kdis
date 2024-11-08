@@ -71,6 +71,17 @@ ModulationType::ModulationType( KBOOL FreqHop, KBOOL PseudoNoise, KBOOL TimeHop,
 
 //////////////////////////////////////////////////////////////////////////
 
+ModulationType::ModulationType( KUINT16 SpreadSpectrum,
+                                KUINT16 MajorModulation, KUINT16 Detail,
+                                KUINT16 System ) :
+    m_ui16SpreadSpectrum(SpreadSpectrum),
+    m_ui16MajorModulationType( MajorModulation ),
+    m_ui16Detail( Detail ),
+    m_ui16System( System )
+{
+}   
+//////////////////////////////////////////////////////////////////////////
+
 ModulationType::~ModulationType()
 {
 }
