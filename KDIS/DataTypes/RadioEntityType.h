@@ -69,7 +69,7 @@ public:
 		             KDIS::DATA_TYPE::ENUMS::Country Country, KUINT8 Categoy, KUINT8 NomenclatureVersion,
 					 KUINT16 Nomenclature );
 
-    RadioEntityType( KUINT8 Kind, KUINT8 Domain, KUINT8 Country, KUINT8 Categoy,
+    RadioEntityType( KUINT8 Kind, KUINT8 Domain, KUINT16 Country, KUINT8 Categoy,
                      KUINT8 NomenclatureVersion, KUINT16 Nomenclature );
 
     RadioEntityType( KDataStream & stream ) ;

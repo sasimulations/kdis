@@ -623,6 +623,7 @@ enum ID_Enum
     CameraTelemetryThermalModeID                                      = 240163,
     CameraTelemetryFrustumCenterID                                    = 240164,
     CameraTelemetryLockedID                                           = 240165,
+    JSONID                                                            = 240166,
     MunitionID                                                        = 500001, // 128 bits
     EngineFuelID                                                      = 500002, // 64 bits
     StorageFuelID                                                     = 500003, // 64 bits

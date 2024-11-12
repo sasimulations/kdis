@@ -62,7 +62,7 @@ RadioEntityType::RadioEntityType( EntityKind Kind, KUINT8 Domain, Country Countr
 
 //////////////////////////////////////////////////////////////////////////
 
-RadioEntityType::RadioEntityType( KUINT8 Kind, KUINT8  Domain, KUINT8 Country, KUINT8  Categoy,
+RadioEntityType::RadioEntityType( KUINT8 Kind, KUINT8  Domain, KUINT16 Country, KUINT8  Categoy,
                                   KUINT8  NomenclatureVersion, KUINT16 Nomenclature ) :
     m_ui8EntityKind( Kind ),
     m_ui8Domain( Domain ),
